@@ -1,0 +1,92 @@
+:root {
+    --nav-width: 210px;
+    --nav-option-height: 35px;
+    --triangle-size: 15px;
+    /* --screen-color: rgb(243, 238, 214); */
+    --screen-color: rgb(50, 50, 50);
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('./fonts/FiraCode-Medium.ttf') format('truetype');
+    font-display: swap;
+}
+
+body {
+    background-color: var(--screen-color);
+    font-family: 'MinhaFonte', sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+nav {
+    position: fixed;
+    background-color: rgb(55, 52, 58);
+    left: 0;
+    min-width: var(--nav-width);
+    max-width: var(--nav-width);
+    height: 100vh;
+}
+
+#espaco-livre {
+    width: 100%;
+    height: 50px;
+}
+
+.menu-option {
+    position: relative;
+    width: 100%;
+    height: calc( var(--nav-option-height) * 130/100) ;
+    background-color: rgb(55, 52, 58);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.menu-option p {
+    color: white;
+    font-size: 14px;
+}
+
+.menu-option img {
+    width: calc(var(--nav-option-height) * 70/100);
+    height: calc(var(--nav-option-height) * 70/100);
+    vertical-align: middle;
+    margin-right: calc(var(--nav-option-height) * 30/100);
+    margin-left: calc(var(--nav-option-height) * 15/100);
+}
+
+#escolhido {
+    background-color: rgb(86, 82, 90);
+}
+
+#escolhido p {
+    color: rgb(218, 165, 32);
+}
+
+#escolhido::after {
+    content: "";
+    position: absolute;
+    /* top: 0; */
+    rotate: 270deg;
+    right: -10px; /* A base do triângulo é alinhada ao lado direito da div */
+    width: 0;
+    height: 0;
+    border-left: calc(var(--nav-option-height)/2) solid transparent; /* Metade da base do triângulo */
+    border-right: calc(var(--nav-option-height)/2) solid transparent; /* Metade da base do triângulo */
+    border-bottom: var(--triangle-size) solid var(--screen-color); /* Altura do triângulo e cor azul */
+}
+
+#quadrado {
+    z-index: 1;
+    position: relative;
+    width: calc(100vw - var(--nav-width));
+    height: 100vh;
+    background-color: var(--screen-color);
+}
