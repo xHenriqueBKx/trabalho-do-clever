@@ -1,3 +1,2 @@
-.gitignore
 db/target
 db/.env
