@@ -1,0 +1,13 @@
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/banco/struct/tables/schemas/OperationalParam.java
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/banco/struct/DataBase.java
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/banco/struct/tables/User.java
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/banco/struct/tables/Vehicle.java
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/banco/struct/tables/schemas/Status.java
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/banco/struct/tables/schemas/RentStatus.java
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/banco/struct/tables/schemas/VehicleSchema.java
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/banco/struct/tables/schemas/Group.java
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/banco/struct/tables/Registry.java
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/banco/struct/tables/schemas/ClientRegistry.java
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/banco/struct/tables/schemas/RentingRegistry.java
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/App.java
+/home/henriquebk/desenvolvimento/spring/trabalho-do-clever/db/src/main/java/com/example/banco/Connect.java

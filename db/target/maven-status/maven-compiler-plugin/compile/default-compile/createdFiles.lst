@@ -1,0 +1,13 @@
+com/example/App.class
+com/example/banco/struct/DataBase.class
+com/example/banco/struct/tables/Registry.class
+com/example/banco/struct/tables/schemas/Group.class
+com/example/banco/struct/tables/schemas/OperationalParam.class
+com/example/banco/struct/tables/schemas/ClientRegistry.class
+com/example/banco/struct/tables/schemas/VehicleSchema.class
+com/example/banco/struct/tables/schemas/Status.class
+com/example/banco/Connect.class
+com/example/banco/struct/tables/schemas/RentStatus.class
+com/example/banco/struct/tables/Vehicle.class
+com/example/banco/struct/tables/User.class
+com/example/banco/struct/tables/schemas/RentingRegistry.class
